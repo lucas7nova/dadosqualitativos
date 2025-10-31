@@ -1,6 +1,6 @@
 // routes/menu.routes.js
 import express from 'express';
-import Menu from '../models/menu.js';
+import Menu from '../models/Menu.js';
 import Cidade from '../models/Cidade.js';
 import TipoMenu from '../models/TipoMenu.js';
 import { protect, authorize } from '../middleware/authMiddleware.js';
@@ -150,4 +150,5 @@ router.get('/:id', protect, async (req, res) => {
 });
 
 export default router;
+
 
