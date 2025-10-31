@@ -21,9 +21,8 @@ const PORT = process.env.PORT || 5000;
 // Configuração de CORS
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://pot-system.lucascoutto.com.br',
-  'https://pot-system.luminasolutions.com.br',
-  'https://pot-system.onrender.com'
+  'https://portal.dadosqualitativos.com.br',
+  'https://dadosqualitativos.onrender.com'
 ];
 app.use(cors({
   origin: function (origin, callback) {
